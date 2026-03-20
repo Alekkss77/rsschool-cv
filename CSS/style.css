@@ -3,13 +3,16 @@ body {
     background-color: #f4f6f8;
     margin: 0;
     padding: 0;
+    position: relative; /* punkt odniesienia dla elementów absolutnych */
 }
 
 .container {
-    width: 800px;
-    margin: 40px auto;
+    width: 300px;           /* szerokość kontenera */
+    position: absolute;     /* pozwala ustawiać w dowolnym miejscu */
+    top: 150px;             /* odległość od góry */
+    left: 20px;             /* odległość od lewej */
     background: white;
-    padding: 30px;
+    padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     border-radius: 10px;
 }
@@ -37,7 +40,7 @@ li {
 }
 
 blockquote {
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 10px;
     background: #eef2f7;
     border-left: 4px solid #3498db;
@@ -51,11 +54,3 @@ blockquote {
 .location {
     color: #888;
 }
-
-/* pomoc {
-    width: 300px;           /* wielkość 
-    position: absolute;     /* pozwala ustawiać w dowolnym miejscu 
-    top: 150px;              /* odległość od góry 
-    left: 20px;            /* odległość od lewej 
-}
-*/
