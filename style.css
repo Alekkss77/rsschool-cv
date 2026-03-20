@@ -10,7 +10,7 @@ body {
     width: 300px;           /* szerokość kontenera */
     position: absolute;     /* pozwala ustawiać w dowolnym miejscu */
     top: 150px;             /* odległość od góry */
-    left: 30px;             /* odległość od lewej */
+    left: 50px;             /* odległość od lewej */
     background: white;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
