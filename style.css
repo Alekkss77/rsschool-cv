@@ -1,17 +1,9 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f6f8;
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
     position: relative; /* punkt odniesienia dla elementów absolutnych */
 }
 
-.container {
-    width: 300px;           /* szerokość kontenera */
-    position: absolute;     /* pozwala ustawiać w dowolnym miejscu */
-    top: 150px;             /* odległość od góry */
-    left: 80px;             /* odległość od lewej */
-    background: white;
-    
-}
 
