@@ -44,3 +44,10 @@ blockquote {
     color: #888;
 }
 
+img {
+    float: right;      /* obrazek po prawej */
+    margin-right: 1120px; /* odstęp od tekstu */
+    margin-top: 300px;
+    width: 150px;
+    height: auto;
+}
