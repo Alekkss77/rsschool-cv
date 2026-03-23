@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f6f8;
-    margin: 5;
-    padding: 10;
+    margin: 5px;
+    padding: 5px;
     position: relative; 
 }
 
@@ -12,21 +12,21 @@ h1 {
 
 h2 {
     border-bottom: 2px solid #ddd;
-    padding-bottom: 2px;
+    margin: 7px;
     margin-top: 7px;
 }
 
 p {
     margin: 1px;
-    
 }
 
 ol {
     padding-left: 20px;
+    margin-top: 10px;
 }
 
 li {
-    margin: 5px 0;
+    margin: 2px 0;
 }
 
 img {
