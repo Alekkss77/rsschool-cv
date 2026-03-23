@@ -31,10 +31,18 @@ li {
     margin-top: 3px;
 }
 
-img {
+.img1 {
     float: right;      /* obrazek po prawej */
     margin-right: 1120px; /* odstęp od tekstu */
-    margin-top: 300px;
-    width: 150px;
+    margin-top: 640px;
+    width: 100px;
+    height: auto;
+}
+
+.img2 {
+    float: right;      /* obrazek po prawej */
+    margin-right: 1000px; /* odstęp od tekstu */
+    margin-top: -185px;
+    width: 70px;
     height: auto;
 }
