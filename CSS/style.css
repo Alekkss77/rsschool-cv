@@ -23,10 +23,12 @@ p {
 ol {
     padding-left: 20px;
     margin-top: 10px;
+    margin-bottom: 1px;
 }
 
 li {
-    margin: 2px 0;
+    margin: 2px;
+    margin-top: 3px;
 }
 
 img {
